@@ -4,7 +4,7 @@
 
 1. install packages
 
-```shell
+```sh
 npm i
 ```
 
@@ -24,20 +24,20 @@ NULL_SAMPLE=null
 
 3. execute `src/index.ts`
 
-```shell
+```sh
 npm run dev
 ```
 
 3. execute `dist/index.js`
 
-```shell
+```sh
 npm run compile
 npm start
 ```
 
 ## Execution Result
 
-```shell
+```sh
 $ npm run dev
 
 > dotenv-caster-sample@1.0.0 dev
@@ -57,4 +57,27 @@ type: boolean
 nullSample: null
 type: object
 nullSample is null
+
+```
+
+```sh
+$ npm start
+
+> dotenv-caster-sample@1.0.0 start
+> node dist/index.js
+
+stringSample: Hello
+type: string
+numberSample: 0
+type: number
+bigintSample: 123456789
+type: bigint
+symbolSample: Symbol(SYMBOL)
+type: symbol
+booleanSample: true
+type: boolean
+nullSample: null
+type: object
+nullSample is null
+
 ```
