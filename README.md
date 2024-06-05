@@ -38,6 +38,12 @@ npm start
 ## Execution Result
 
 ```sh
+$ npm run compile
+
+> dotenv-caster-sample@1.0.0 compile
+> tsc -p .
+
+
 $ npm run dev
 
 > dotenv-caster-sample@1.0.0 dev
