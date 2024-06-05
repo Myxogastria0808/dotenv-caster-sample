@@ -1,0 +1,27 @@
+{
+  "name": "dotenv-caster-sample",
+  "version": "1.0.0",
+  "description": "This is a sample project of dotenv-caster.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "start": "node dist/index.js",
+    "compile": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myxogastria0808/dotenv-caster-sample.git"
+  },
+  "author": "Yuki Osada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Myxogastria0808/dotenv-caster-sample/issues"
+  },
+  "homepage": "https://github.com/Myxogastria0808/dotenv-caster-sample#readme",
+  "dependencies": {
+    "@types/node": "^20.14.1",
+    "dotenv": "^16.4.5",
+    "dotenv-caster": "^2.0.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}
